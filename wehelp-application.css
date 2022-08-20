@@ -1,7 +1,7 @@
 .desktop{
     background-image:url(fuji-mountain.jpg);
     background-attachment:fixed;
-    background-position:center;
+    background-position:right bottom;
     background-size:cover;
 }   
 .mobile{
@@ -53,9 +53,6 @@
 }
 
 @media(max-width:500px){
-    .desktop{
-        background-position:right bottom;
-    }
     .headline{
         font-size:24px;
     }
