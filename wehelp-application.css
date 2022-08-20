@@ -1,0 +1,70 @@
+.desktop{
+    background-image:url(fuji-mountain.jpg);
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+}   
+.mobile{
+    display:none;
+    
+}
+.headline{
+    font-family:"Times New Roman", Times, serif;
+    font-weight:bold;
+    font-size:30px;
+    text-align:center;
+    margin:5px;
+    text-shadow:1px
+}
+.name{
+    font-family:"Times New Roman", Times, serif;
+    font-weight:bold;
+    font-size:24px;
+    text-align:center;
+    margin-bottom:20px;
+}
+.line{
+    background-color:black;
+    height:1px;
+    border:none;
+}
+.team{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+}
+.question{
+    flex:none;
+    font-weight:bold;
+    font-size:20px;
+    width:65%;
+    padding:10px;
+    background-color:rgb(255,255,255,0.4);
+}
+.answer{
+    flex:none;
+    font-size:16px;
+    width:65%;
+    line-height:1.5; 
+    padding:10px;
+    background-color:rgb(255,255,255,0.4);
+}
+
+@media(max-width:500px){
+    .headline{
+        font-size:24px;
+    }
+    .name{
+        font-size:20px;
+    }
+    .question{
+        width:90%;
+    }
+    .answer{
+        width:90%;
+        color:#272727;
+    }
+}
+
